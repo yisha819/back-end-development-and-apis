@@ -6,6 +6,7 @@ const app = express();
 
 app.use(express.json());
 
+// Route registration
 app.use('/api/auth', authRoutes);
 app.use('/api/watchlist', watchlistRoutes);
 
